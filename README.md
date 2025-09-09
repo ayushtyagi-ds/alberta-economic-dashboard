@@ -21,3 +21,13 @@
    cd alberta-economic-dashboard
 
 
+
+## 📊 Data Sources
+
+| Indicator          | Source Link                                                                 
+| Oil Prices         | [Yahoo Finance – Crude Oil Futures (`CL=F`)](https://finance.yahoo.com/quote/CL=F) | API / CSV    | Using `yfinance` to fetch daily prices |
+| GDP (Alberta)      | [Statistics Canada – GDP by Industry](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3610043401) | CSV / XLSX    | Provincial quarterly data available     |
+| Employment Stats   | [Alberta Open Data – Labour Force](https://open.alberta.ca/opendata)         | CSV           | Monthly labour market data              |
+| Housing Starts     | [CMHC Housing Market Data](https://www.cmhc-schl.gc.ca/en/professionals/housing-markets-data-and-research) | CSV / XLSX    | Starts & completions by city/region     |
+| Population & Migration | [Statistics Canada – Interprovincial migration](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000501) | CSV / XLSX | Migration in/out of Alberta by year     |
+| Retail Sales / Consumer Confidence | [Statistics Canada – Retail Trade](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2010000801) | CSV / XLSX | Proxy for consumer confidence           |
